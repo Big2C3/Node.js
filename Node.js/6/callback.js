@@ -1,4 +1,4 @@
-const fs = require("fs");
+const fs = require("node:fs");
 
 const filePath = "output.txt";
 const fileContent = "Questo è un file scritto con fs.writeFile() in Node.js!";
