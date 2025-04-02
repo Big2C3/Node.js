@@ -32,3 +32,17 @@ function luckyDraw(player) {
 // Joe won a prize in the draw!
 // Caroline won a prize in the draw!
 // Sabrina lost the draw.
+
+
+
+// async function playLuckyDraw() {
+//   try {
+//     console.log(await luckyDraw("Joe"));
+//     console.log(await luckyDraw("Caroline"));
+//     console.log(await luckyDraw("Sabrina"));
+//   } catch (error) {
+//     console.error(error.message);
+//   }
+// }
+
+// playLuckyDraw();
