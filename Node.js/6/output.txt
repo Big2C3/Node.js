@@ -1,0 +1,1 @@
+Questo è un file scritto con fs.writeFile() in Node.js!

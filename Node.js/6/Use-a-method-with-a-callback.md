@@ -1,0 +1,1 @@
+Crea uno script che utilizzi il fs.writeFile()metodo core di Node.js (API callback) per scrivere un file di testo. La documentazione per questo metodo è disponibile nella pagina File system di Node.js.
