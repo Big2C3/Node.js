@@ -18,6 +18,49 @@ server.listen(3000, () => {
 });
 
 
+
+
+
+//TODO  crist@DESKTOP-FAE2SJD MINGW64 ~/Desktop/Full stack/Full stack/Esercizi/2025/Marzo-25/Node.js/Node.js/4 (main)
+//TODO  $ node 04-01-server.mjs
+//TODO  Server running at http://localhost:3000
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 //* riga 1 - importato metodo createService dal modulo HTTP principale di Node.js
 //* riga 3 - forniamo al metodo createServer una funzione di callback,che accetta 2 parametri richiesta e risposta. 
 //*          Accettiamo le richieste che ci arrivano e vogliamo essere in grado di rispedire le risposte a tali richieste
@@ -39,6 +82,3 @@ server.listen(3000, () => {
 //*           callback e all'interno di questa callback dirà che la console esegirà il logout con un messaggio su cosa sta succedendo
 //*           qnd diremo che il server è in esecuzione su HTTP localhost su porta 3000.
 
-//TODO  crist@DESKTOP-FAE2SJD MINGW64 ~/Desktop/Full stack/Full stack/Esercizi/2025/Marzo-25/Node.js/Node.js/4 (main)
-//TODO  $ node 04-01-server.mjs
-//TODO  Server running at http://localhost:3000
