@@ -6,10 +6,11 @@ const server = createServer((request, response) => {
   response.statusCode = 200;
 
   response.setHeader("Content-Type", "application/json");
-
+  
   // const jsonResponseBody = JSON.stringify({ location: "Earth" });
   const jsonResponseBody = JSON.stringify({ location: "Mars" }); //cambiata location in "Mars"
-
+  response.setHeader("Content-Length", jsonResponseBody.length )
+ 
   response.end(jsonResponseBody);
 });
 
