@@ -23,6 +23,17 @@ app.get("/planets", (req, res) => {
   res.json(planets);
 });
 
+app.get("/planets/:id", (req, res) => {
+  const planetId = req.params.id
+  const planet = planets.find((planet) => planet.id == planetId);
+
+  if (planet) {
+    res.status(200).json(planet)
+  } else {
+    res.status(400).send("Pianeta non trovato")
+  }
+})
+
 // Avvio server
 const PORT = process.env.PORT || 3000;
 app.listen(PORT, () => {
